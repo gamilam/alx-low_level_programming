@@ -7,9 +7,10 @@
  */
 int main(void)
 {
-int n;
-for (n = 'z' ; n >= 'a' ; n++)
-putchar (n);
+char letter;
+for (letter = 'z' ; n >= 'a' ; letter++)
+putchar (letter);
+
 putchar ('\n');
 
 return (0);
