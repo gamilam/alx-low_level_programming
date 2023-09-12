@@ -1,4 +1,4 @@
-#include "main.h"
+#include "putchar.h"
 
 /**
  * main - Print the word "main"
@@ -7,15 +7,13 @@
  */
 int main(void)
 {
+	int i;
+	char p[] = "_putchar";
 
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(p[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
