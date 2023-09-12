@@ -2,7 +2,7 @@
 
 /**
 * _islower - function that chech the lowercase
-*
+*@c: is parameter
 * Return: 0 or 1
 */
 int _islower(int c)
