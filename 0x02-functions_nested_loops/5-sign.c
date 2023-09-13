@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_sign
+* print_sign - function
 * @n: is parameter
 * Return: 0 or 1 or -1
 */
@@ -13,7 +13,7 @@ return (1);
 }
 else if (n == 0)
 {
-_putchar(0);
+_putchar('0');
 return (0);
 }
 else
