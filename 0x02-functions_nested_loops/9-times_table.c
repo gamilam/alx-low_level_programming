@@ -8,24 +8,25 @@
 void times_table(void)
 {
 int x, z, y;
-for (x = 0; x < 10; x++)
+
+for (x = 0; x <= 9; x++)
 {
-for (y = 0; y < 10; y++)
+_putchar('0');
+for (y = 1; y <= 9; y++)
 {
+_putchar(',');
+_putchar(' ');
 z = x * y;
-if (y == 0)
+if (z <= 9)
 {
-printf("%d, ", z);
+_putchar(' ');
 }
 else
 {
-printf("%2d", z);
+_putchar((z / 10) + '0');
 }
-if (z != 9)
-{
-printf(", ");
+_putchar((z % 10) + '0');
 }
-}
-printf("\n");
+_putchar('\n');
 }
 }
