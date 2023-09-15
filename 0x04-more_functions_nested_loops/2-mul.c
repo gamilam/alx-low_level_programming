@@ -4,10 +4,10 @@
 *mul - multiply 2 int
 *@a: first int
 *@b: secound int
-*Return: addition of the mltiplication 
+*Return: addition of the mltiplication
 */
 
-int _mul(int a, int b)
+int mul(int a, int b)
 {
 return (a * b);
 }
