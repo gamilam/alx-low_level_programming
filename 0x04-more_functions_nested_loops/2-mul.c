@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*_mul - multiply 2 int
+*mul - multiply 2 int
 *@a: first int
-*@b: secound 2
+*@b: secound int
 *Return: addition of the mltiplication 
 */
 
